@@ -42,7 +42,8 @@ const FeedbackApp = () => {
       <FeedbackArea>
         <Title>Please leave feedback</Title>
         <FeedbackOptions {...feedbackOptionsProps} />
-        <section title="Statistics:">
+        <section>
+          <Title>Statistic:</Title>
           {isFeedbackGiven ? (
             <Statistics {...statisticsProps} />
           ) : (
