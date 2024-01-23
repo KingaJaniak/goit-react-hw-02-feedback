@@ -1,4 +1,4 @@
-import { Btns, BtnStats } from './feedbackapp.styled';
+import { Btns, BtnStats } from './FeedbackApp.styled.js';
 
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (

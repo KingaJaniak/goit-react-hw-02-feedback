@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import { Title, Widget, FeedbackArea } from './feedbackapp.styled';
-import { FeedbackOptions } from './feedbackoption';
-import { Statistics } from './statistic';
-import { Notification } from './notification';
+import { Title, Widget, FeedbackArea } from './FeedbackApp.styled.js';
+import { FeedbackOptions } from './FeedbackOption.js';
+import { Statistics } from './Statistic.js';
+import { Notification } from './Notification.js';
 
 const FeedbackApp = () => {
   const [state, setState] = useState({
