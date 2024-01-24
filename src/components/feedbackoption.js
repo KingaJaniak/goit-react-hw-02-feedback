@@ -1,4 +1,5 @@
 import { Btns, BtnStats } from './FeedbackApp.styled.js';
+import PropTypes from "prop-types";
 
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
@@ -10,4 +11,9 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
       ))}
     </Btns>
   );
+};
+
+FeedbackOptions.propTypes = {
+  options: PropTypes.array,
+  onLeaveFeedback: PropTypes.func,
 };
